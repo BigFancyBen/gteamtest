@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'robotoregular';
+    src: url('/fonts/roboto-regular-webfont.woff2') format('woff2'),
+         url('/fonts/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  margin: 0;
+}
+#logo {
+  padding-left: 21.5px;
+  padding-top: 7.5px;
+  padding-bottom: -4px;
+}
+#early {
+  padding-top: 40px;
+  text-align: center;
+  margin:auto;
+  padding-bottom: 25px;
+}
+p {
+  font-family: robotoregular;
+  font-size: 15px;
+  color: #898989;
+}
+#teaser {
+  background-color: black;
+  text-align: center;
+  width: 100%;
+  margin-left:-10px;
+}
+#video {
+  max-width: 850px;
+  margin: auto;
+  text-align: center;
+  position:relative;
+}
+#video img{
+  max-width: 100%;
+  width:auto;
+}
+#look {
+  padding-top: 10px;
+  text-align: center;
+  margin:auto;
+  max-width: 500px;
+}
+#look img{
+  max-width: 100%;
+  width: auto;
+}
+#exhibits{
+  text-align: center;
+  margin: auto;
+}
+ul{
+  list-style-type: none;
+  padding: 0px;
+}
+li{
+  display: inline;
+  padding-right: 8px;
+}
+#exhibits img{
+  max-width: 100%;
+  width: auto;
+}
+#social {
+  height: 132px;
+  width:100%;
+  background-color: #448bff;
+  background-image: url('/img/social.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#totop {
+  height:70px;
+  width:100%;
+  background-image: url('/img/totop.png');
+  background-position: center right;
+  background-repeat: no-repeat;
+}
+@media only screen and (min-width: 479px) {
+    #totop {
+        display: none;
+    }
+}
+#bottom {
+  max-width: 100%;
+  background-color: #f7f7f7;
+  height: 70px;
+}
+#footer{
+  height:70px;
+  background-image: url('/img/footer.png');
+  background-position: center left;
+  background-repeat: no-repeat;
+  float: left;
+  padding-right: 300px;
+  margin-left: 10px;
+}
+#follow{
+  height:70px;
+  background-image: url('/img/follow.png');
+  background-position: center right;
+  background-repeat: no-repeat;
+  float: right;
+  padding-right: 250px;
+  margin-right: 10px;
+}
+@media only screen and (max-width: 600px) {
+    #bottom {
+          height:150px;
+    }
+}
